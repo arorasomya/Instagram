@@ -3,9 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="anotherWhite">#99FFFFFF</color>
+    <color name="anotherWhite">#99ffffff</color>
     <color name="fadeWhite">#1AFFFFFF</color>
     <color name="white">#FFFFFF</color>
     <color name="gradient_start">#6a31b4</color>
     <color name="gradient_end">#d63281</color>
+    <color name="grey">#818181</color>
+    <color name="green">#4dc247</color>
+    <color name="blue">#1da1f2</color>
 </resources>

@@ -9,41 +9,47 @@
     <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/swipeContainer"
         android:layout_width="match_parent"
-        android:layout_height="500dp">
+        android:layout_height="530dp">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rvPosts"
             android:layout_width="match_parent"
-            android:layout_height="500dp"
+            android:layout_height="530dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
     <ImageView
         android:id="@+id/homeW"
-        android:layout_width="wrap_content"
-        android:layout_height="59dp"
+        android:layout_width="59dp"
+        android:layout_height="32dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="43dp"
         app:srcCompat="@drawable/home" />
 
     <ImageView
+        android:id="@+id/personW"
+        android:layout_width="53dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="launchLogout"
+        app:srcCompat="@drawable/person_w" />
+
+    <ImageView
         android:id="@+id/cameraW"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="launchCreateHome"
         app:srcCompat="@drawable/camera" />
 
-    <ImageView
-        android:id="@+id/personW"
-        android:layout_width="wrap_content"
-        android:layout_height="59dp"
-        android:onClick="launchLogout"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="41dp"
-        app:srcCompat="@drawable/person_w" />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/swipeContainer"
+        android:background="?android:attr/listDivider" />
 </RelativeLayout>

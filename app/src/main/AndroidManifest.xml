@@ -39,7 +39,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".FeedActivity" />
         <activity android:name=".LogoutActivity" />
-        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".PostDetailsActivity"></activity>
     </application>
 
 </manifest>
