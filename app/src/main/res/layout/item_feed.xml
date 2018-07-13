@@ -11,7 +11,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/profile"
         android:layout_marginTop="5dp"
-        android:background="@android:color/black" />
+        android:background="#ffffff" />
 
     <TextView
         android:id="@+id/tvHandle"
@@ -31,10 +31,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@id/heart"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="6dp"
+        android:layout_below="@+id/likes"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
         android:text="TextView"
         android:textColor="@android:color/black"
         android:textSize="16dp" />
@@ -83,5 +82,18 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/heart"
         app:srcCompat="@drawable/save" />
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/heart"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
